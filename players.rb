@@ -1,7 +1,8 @@
 class Player
-  attr_accessor :id, :lives
+  attr_accessor :turn, :lives
 
-  def initialize
+  def initialize(turn)
     @lives = 3
+    @turn = turn
   end
 end

@@ -1,5 +1,5 @@
 class Question
-  attr_reader :answer
+  attr_reader :prompt, :answer
 
   def initialize
     a = 1 + rand(20)
